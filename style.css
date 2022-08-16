@@ -1,0 +1,99 @@
+*{
+  margin: 0; 
+
+}
+
+.banner {
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('images/banner.jpg') ;
+  position: relative;
+}
+.over{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: crimson;
+  opacity: 0.5;
+}
+.main {
+  z-index: 99;
+  position: relative;
+}
+.banner .main{
+  z-index: 99.;
+}
+.main h2 {
+  padding: 10px 5%;
+  color: bisque;
+  font-size: 66PX;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.main p{
+  padding: 10px 15%;
+   color: azure;
+   font-size:24px ;
+   font-weight:400 ;
+   text-transform: capitalize;
+}
+.banner .main a{
+  text-transform: uppercase;
+  text-decoration: none;
+background-color: aliceblue;
+color: crimson;
+padding: 10px 8%;
+
+}
+.order.main a {
+  padding: 10px 15%;
+  color: black;
+  font-size: medium;
+  font-weight:10px ;
+  text-transform: capitalize;
+}
+.theme color{
+color:crimson ;
+}
+/* global header*/
+.golbal header{
+  padding: 50px 10%;
+  text-align: center;
+}
+.global header h2{
+   font-size:35px ;
+   font-weight:700 ;
+   font-family: fantasy;
+   
+}
+.globalm header p{
+font-size:18px ;
+}
+/* package style*/
+.package menu{
+background-color:antiquewhite ;
+}
+.package body{
+  display: flex;
+column-gap:30px ;
+justify-content: center;
+align-items: center;
+}
+.package single {
+background-color: antiquewhite;
+padding:30px 20px ;
+border-radius:15px ;
+text-align: center;
+}
+.package single h3 {
+font-size:30px ;
+ font-family:"pacifico" cursive;
+ color: crimson;
+ margin-bottom:15px 0% ;
+}
